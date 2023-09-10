@@ -14,7 +14,7 @@ const config = {
   embed_name: 'SHADOW Injection', 
   embed_icon: 'https://cdn.discordapp.com/attachments/1138198116311498785/1150411591959986227/SHADOW14.gif'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Hassantk343/injection1/main/injection/main/index.js', 
+  injection_url: '', 
   /**
    
    **/
